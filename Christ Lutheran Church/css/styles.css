@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+
+#home, #about, #shedule, #contact { 
+    min-height: 600px;
+}
+
+/*grid system*/
+
+.show-grid div{
+    background-color: none;
+    border: none;
+    padding: 20px;
+}
+
+
+/*header*/
+
+/*nav*/
+
+
+
+/*home cover*/
+
+#home {
+    background-image: url(../img/clcov.jpg);
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center;
+}
+
+.home_img {
+    width: 500px;
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+/*about us*/
+#about {
+    background-image: url(../img/grey_wash_wall.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeating-radial-gradient(5);
+}
+
+#about .row {
+    margin-top: 30px
+}
+
+#about h1 {
+    font-family: 'Kaushan+Script';
+    color: #2FF5F8;
+    font-size: 4em;
+    margin-top: 0;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#about h2 {
+    font-size: 35px;
+    margin-top: -15px;
+}
+
+#about p {
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.line-whatever {
+    border-left: 1px solid #0a0a0a;
+}
+
+/*schedule*/
+
+#schedule .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#schedule {
+    background-image: url(../img/chruch.png);
+    background-attachment: fixed;
+}
+
+#schedule .center {
+    float: none;
+    margin: 0 auto;
+    background-color: rgba(20, 20, 20, .6);
+    padding: 10px;
+}
+
+#schedule h2 {
+    font-family: 'Kaushan+Script';
+    font-size: 70px;
+    color: #F8512F;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+#schedule p {
+    font-weight: 300;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+/*contact*/
+
+#contact p {
+    color: white;
+}     
+
+.contact-us h2 {
+    font-family: 'Kaushan+Script';
+    color: #2FF5F8;
+}
+
+#contact {
+    background-image: url(../img/cartographer.png);
+    background-attachment: fixed;
+}
+
+/*footer*/
+
+footer {
+    background-color: #231f20;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #bfc0c1;
+}
+
+footer img {
+    height: 90px;
+}
+
+.contact-info {
+    border-right: 1px solid #333;
+    border-left: 1px solid #333;
+}
+
+.contact-info, .social {
+    padding-top: 15px;
+
+}
+/*
+.contact-box {
+    padding: 30px;
+}*/
+
+footer .fine-print {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #505050;
+}
+@media (max-width: 768px) {
+    .social {
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
+footer .social {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

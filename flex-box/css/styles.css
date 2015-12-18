@@ -1,0 +1,132 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.flex {
+	margin-top: 20px;
+	width: 100;
+	background-color: #FCF8E3;
+	padding: 10px;
+}
+
+.item {
+	width: 10%;
+	margin: 5px;
+	padding: 5px;
+	background-color: #3A87AD;
+	color: #FFF;
+}
+
+/*example 1*/
+.example1 .parent {
+	display: flex;
+}
+
+/*example 2*/
+
+.example2 .parent {
+	display: flex;
+	flex-direction: row; /*row row-reverse column column-reverse*/
+}
+
+/*example 3*/
+
+.example3 .parent {
+	display: flex;
+	/*height: 300px;*/
+	justify-content: space-between; /*flex-start flex-end center space-between space-around*/
+}
+
+/*example 4*/
+
+.example4 .parent{
+	display: flex;
+/*	height: 300px;*/
+	align-items: center; /*flex-start flex-end center baseline stretch*/
+/*	justify-content: center;*/
+}
+
+/*.example4 .item1 {
+	padding: 50px 5px ;
+}
+
+.example4 .item2 {
+	padding: 30px 6px;
+}
+
+.example4 .item3 {
+	padding: 40px 8px;
+}
+*/
+
+
+/*example 5*/
+
+.example5 .parent {
+	display: flex;
+}
+
+/*.example5 .item1 {
+	order: ;
+}
+
+.example5 .item2 {
+	order: ;
+}
+
+.example5 .item3 {
+	order: ;
+}
+
+.example5 .item4 {
+	order: ;
+}
+
+.example5 .item5 {
+	order: ;
+}*/
+
+
+.example6 .parent {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	height: 500px;
+}
+
+.example6 .item1 {
+	flex-grow: 1;
+}
+
+.example6 .item2 {
+	flex-grow: 2;
+}
+
+.example6 .item3 {
+	flex-grow: 3;
+}
+
+.example6 .item4 {
+	flex-grow: 4;
+}
+
+.example6 .item5 {
+	flex-grow: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
